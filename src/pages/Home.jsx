@@ -1,6 +1,6 @@
 import React,{useState, useEffect} from 'react'
 import Baner from '../components/Baner/Baner'
-import ProductList from '../Components/ProductList/ProductList'
+import ProductList from '../components/ProductList/ProductList'
 import apiClient from '../Axios/apiClient'
 import Country from '../components/Country/Country'
 import Letter from '../components/Letter/Letter'
