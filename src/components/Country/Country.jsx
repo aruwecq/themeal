@@ -1,4 +1,3 @@
-import React from 'react'
 import './Country.css'
 import { listFlag } from '../../data/Country'
 import { Link } from 'react-router-dom'

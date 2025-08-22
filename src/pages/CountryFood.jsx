@@ -1,7 +1,7 @@
 import React,{useState , useEffect} from 'react'
 import { useParams } from 'react-router-dom'
 import apiClient from '../Axios/apiClient'
-import ProductList from '../Components/ProductList/ProductList'
+import ProductList from '../components/ProductList/ProductList'
 import Loading from '../components/loading/Loading'
 function CountryFood() {
     const{ area} = useParams()

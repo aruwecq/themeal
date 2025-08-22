@@ -1,7 +1,7 @@
 import React,{use, useEffect, useState} from 'react'
 import { useParams } from 'react-router-dom'
 import apiClient from '../Axios/apiClient'
-import ProductList from '../Components/ProductList/ProductList'
+import ProductList from '../components/ProductList/ProductList'
 function Search() {
     const{title}= useParams()
     const [product, setProduct] = useState([])
