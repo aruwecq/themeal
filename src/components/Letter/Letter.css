@@ -1,0 +1,36 @@
+.alphabet-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.alphabet-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.row-alphabet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+    margin-bottom: 30px;
+}
+
+.alphabet-box {
+  text-decoration: none;
+  color: #f4722b;
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.2s;
+}
+
+.alphabet-box:hover {
+  color: #ffcb69;
+}
+
+.slash {
+   margin: 0 4px; 
+  user-select: none;
+  text-decoration: none;
+}

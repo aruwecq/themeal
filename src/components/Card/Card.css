@@ -1,0 +1,22 @@
+.card img {
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+
+}
+
+.card p {
+    color: #F4722B;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card {
+    width: 240px;
+    height: 271px;
+    font-size: 16px;
+    color: #f4722b;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+
+}
